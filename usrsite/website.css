@@ -31,7 +31,7 @@ main {
     padding: 20px 0;
 }
 
-.announcement h2 {
+.announcement h2, .event h2 {
     text-align: center;
     color: #444;
 }
@@ -75,4 +75,11 @@ main {
 
 .notes p {
     margin: 0 0 10px;
+}
+
+/* 新增圖片大小限制 */
+img {
+    width: 100%;
+    max-width: 400px;  /* 設定圖片最大寬度 */
+    height: auto;  /* 保持圖片比例 */
 }
